@@ -1,0 +1,79 @@
+{
+    "labels": [
+        "a",
+        "again",
+        "am",
+        "are",
+        "ball",
+        "bath"
+    ],
+    "training_subjects": [
+        "Subject1",
+        "Subject2",
+        "Subject3",
+        "Subject4",
+        "Subject5"
+    ],
+    "testing_subjects": [
+        "Subject1",
+        "Subject2",
+        "Subject3",
+        "Subject4",
+        "Subject5"
+    ],
+    "available_subjects": [
+        "Subject1",
+        "Subject2",
+        "Subject3",
+        "Subject4",
+        "Subject5"
+    ],
+    "training": {
+        "load_checked": true,
+        "predict_only": false,
+        "reload_model": true,
+        "data_folder_name": "mfcc_44100_20000_40_13_40_2000_100_Interpolation",
+        "train_data_path": "../data/{}/{}/*/*.hdf5",
+        "test_data_path": "../data/{}/{}/*/test/*.hdf5",
+        "val_data_path": "../data/{}/{}/*/validation/*.hdf5",
+        "model_checkpoint": "",
+        "learning_rate": 0.001,
+        "epochs": 25,
+        "batch_size": 10
+    },
+    "model": "CNN",
+    "available_models": ["LR", "NN", "CNN", "RNN"],
+    "data_path": "../data/trimmed_v0.2.3/{}/*/*.json",
+
+    "conversion": {
+        "test_fraction": 10,
+        "conversion_type": "mfcc",
+        "apply_stack": true,
+        "apply_interpolation" : true,
+        "apply_padding" : false,
+        "skip_second": false,
+
+        "sampling_frequency" : 44100,
+        "highfreq" : 20000,
+        "numcep" : 40,
+        "nfilt" : 13,
+        "new_length": 40,
+        "minimum_data_size": 2000,
+        "show_plot": false,
+
+        "noises" : ["default"],
+        "noises_available": ["default", "pink", "blue", "brown", "violet", "white"],
+        "noise_coefficients": [0.005, 0.0025, 0.0075],
+
+        "apply_shift": false,
+        "apply_stretch": false
+    },
+    "all_labels": [
+        "a",
+        "again",
+        "am",
+        "are",
+        "ball",
+        "bath"
+    ]
+}
