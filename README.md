@@ -1,6 +1,6 @@
 # Word recognition from signals #
 
-_Note: For this project I worked on as an AI fellow at Insight Data Science, where I consulted with a private company in the San Francisco bay area. I have signed an NDA with them, so I am not allowed to give away any sensitive details. So I am keeping the codebase and the readme files completely generic._
+_Note: For this project I worked as an AI fellow at Insight Data Science, where I consulted with a private company in the San Francisco bay area. I have signed an NDA with them, so I am not allowed to give away any sensitive details. So I am keeping the codebase and the readme files completely generic._
 
 ## Introduction
 
