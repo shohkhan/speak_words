@@ -44,7 +44,7 @@ protobuf==3.5.0.post1
 ptyprocess==0.5.2
 PyAudio==0.2.11
 pydot==1.2.4
-Pygments==2.2.0
+Pygments==2.7.4
 pyparsing==2.2.0
 python-dateutil==2.6.1
 python-speech-features==0.6
