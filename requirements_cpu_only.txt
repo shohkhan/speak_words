@@ -59,7 +59,7 @@ seaborn==0.8.1
 simplegeneric==0.8.1
 six==1.11.0
 sympy==1.1.1
-tensorflow==1.4.0
+tensorflow==2.6.4
 tensorflow-tensorboard==0.1.8
 terminado==0.8.1
 testpath==0.3.1
